@@ -1,88 +1,88 @@
 # 🎮 Fog Lamp Side Quest
 
-> Broken OEM switch → PCB reverse engineering → perfboard prototype → mission accomplished.
+> A broken OEM switch, a little PCB reverse engineering, a perfboard repair, and a 12-hour hardware side quest.
 
-A friend's bike fog-lamp switch stopped working because its PCB pushbuttons had failed. Rather than replace the entire assembly, I opened it up, traced the board, studied the circuit, and built a replacement.
+A friend's bike fog-lamp switch stopped working because the pushbuttons on its original PCB had failed. Instead of replacing the entire assembly, I opened it up, traced the PCB connections, measured the resistors, and built a replacement.
 
-The whole repair and initial KiCad design took approximately **12 hours**, alongside my other work.
+The repair and initial KiCad design took approximately **12 hours**, alongside my other work.
 
 ## 📸 Build Gallery
 
 ### 1. The Original Problem
 
-The damaged OEM switch PCB that started the side quest.
+The damaged OEM PCB that started the side quest.
 
-![Damaged original PCB](./damaged_oem.jpg)
+![Damaged OEM PCB](./Damaged_oem.jpg)
 
 ### 2. Understanding the Original Design
 
-I inspected the PCB, traced its connections by hand, documented the tracks, and measured the resistors to understand how the circuit worked.
+I traced the PCB tracks by hand, documented the connections, and measured the resistors to understand how the original circuit worked.
 
 ### 3. OEM Board vs. Perfboard Replacement
 
-I measured the original board, shaped a double-sided perfboard to fit, positioned the pushbuttons to match the original mounting points, and soldered the replacement connections and components.
+I measured the original board and shaped a double-sided perfboard to match its dimensions. Then I positioned the pushbuttons, added the resistors, and soldered the connections.
 
-![Original PCB and perfboard replacement](./oem_vs_perfboard.jpg)
+![OEM PCB and perfboard replacement](./oem%2Bperf_board.jpg)
 
 ### 4. Back on the Bike
 
-The repaired switch was reinstalled in the bike's existing switch assembly and tested.
+The replacement was fitted into the existing switch assembly and tested on the bike.
 
-![Repaired switch installed on the bike](./fixed_on_bike.jpg)
+![Repaired switch on the bike](./Fixed_on_the_bike.jpg)
 
-### 5. Installation — Rear View
+### 5. Rear View of the Installation
 
-A second view of the completed installation.
+A view of the completed repair from the back.
 
-![Rear view of the repaired switch](./fixed_on_bike_back.jpg)
+![Rear view of the repaired switch](./Fixed%20on%20the%20bike_back.jpg)
 
-### 6. Original Mount, Working Again
+### 6. Installed with the Original Mount
 
-The replacement fitted into the original mount, keeping the repair compact and practical.
+The replacement fitted into the original mounting arrangement.
 
-![Replacement installed with the original mount](./installed_with_mount.jpg)
+![Replacement installed with mount](./on_the_bike_with_mount.jpg)
 
 ## 🛠️ What I Did
 
-- Reverse-engineered the original PCB without an available schematic.
-- Traced and documented the PCB connections manually.
-- Measured resistors and analysed the circuit.
+- Inspected the failed OEM switch PCB.
+- Reverse-engineered the board's connections without an original schematic.
+- Traced and documented PCB tracks manually.
+- Measured the resistors and analysed the circuit.
 - Built a dimension-matched, double-sided perfboard replacement.
-- Positioned and soldered the replacement pushbuttons and components.
-- Reinstalled and tested the repair.
-- Designed a custom PCB in KiCad as the next step toward a fabricated board.
+- Installed and tested the repair using the original switch mount.
+- Designed a replacement schematic and PCB layout in KiCad 9.0.
 
 ## 🧰 Tools & Materials
 
+- KiCad 9.0
 - Double-sided perfboard
-- Replacement pushbuttons and resistors
+- Pushbuttons and resistors
 - Soldering tools
 - Multimeter
-- Pen-and-paper PCB track tracing
-- KiCad for the custom PCB design
+- Pen-and-paper track tracing
 
 ## 🏁 Quest Status
 
-- [x] Inspect the failed OEM PCB
+- [x] Inspect the original PCB
 - [x] Trace the circuit connections
 - [x] Build the perfboard replacement
 - [x] Install and test the repair
-- [x] Design a custom PCB in KiCad
-- [ ] Fabricate and validate the custom PCB (if not yet completed)
+- [x] Design the schematic and PCB layout in KiCad
+- [ ] Fabricate and validate the custom PCB
 
 ## 💡 What I Learned
 
-- PCB reverse engineering and connectivity tracing
+- PCB reverse engineering without an existing schematic
 - Practical circuit analysis and component measurement
-- Translating a physical board into a replacement layout
+- Translating a physical PCB into a replacement layout
 - Soldering and fitting a prototype within existing mechanical constraints
 - Moving from a quick repair to a documented PCB design
 
 ## Notes
 
-This is a personal repair and learning project. The successful test refers to the installed perfboard prototype; the custom PCB is a separate design stage. This project is not a certified automotive component or a claim of long-term reliability.
+This is a personal repair and learning project. The successful test refers to the installed perfboard prototype; the custom PCB design is a separate step and should be marked complete only after fabrication and testing.
 
-The original product and OEM PCB are not my design. This repository documents my repair process and replacement work; any third-party rights remain with their respective owners.
+The original OEM product is not my design. This repository documents my repair process and replacement design. Any third-party rights remain with their respective owners.
 
 ---
 
