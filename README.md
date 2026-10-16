@@ -12,7 +12,7 @@ The repair and initial KiCad design took approximately **12 hours**, alongside m
 
 The damaged OEM PCB that started the side quest.
 
-![Damaged OEM PCB](./Damaged_oem.jpg)
+<img src="./Damaged_oem.jpg" alt="Damaged OEM PCB" width="400" />
 
 ### 2. Understanding the Original Design
 
@@ -22,25 +22,25 @@ I traced the PCB tracks by hand, documented the connections, and measured the re
 
 I measured the original board and shaped a double-sided perfboard to match its dimensions. Then I positioned the pushbuttons, added the resistors, and soldered the connections.
 
-![OEM PCB and perfboard replacement](./oem%2Bperf_board.jpg)
+<img src="./oem%2Bperf_board.jpg" alt="OEM PCB and perfboard replacement" width="400" />
 
 ### 4. Back on the Bike
 
 The replacement was fitted into the existing switch assembly and tested on the bike.
 
-![Repaired switch on the bike](./Fixed_on_the_bike.jpg)
+<img src="./Fixed_on_the_bike.jpg" alt="Repaired switch on the bike" width="400" />
 
 ### 5. Rear View of the Installation
 
 A view of the completed repair from the back.
 
-![Rear view of the repaired switch](./Fixed%20on%20the%20bike_back.jpg)
+<img src="./Fixed%20on%20the%20bike_back.jpg" alt="Rear view of the repaired switch" width="400" />
 
 ### 6. Installed with the Original Mount
 
 The replacement fitted into the original mounting arrangement.
 
-![Replacement installed with mount](./on_the_bike_with_mount.jpg)
+<img src="./on_the_bike_with_mount.jpg" alt="Replacement installed with mount" width="400" />
 
 ## 🛠️ What I Did
 
